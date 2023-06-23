@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(223, 228, 223);
+}
+
+.home {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: honeydew;
+    border-top: 4px;
+    border-style: solid;
+    border-color: honeydew;
+    border-top-color: #4CAF50;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.student,
+.faculty,
+.warden {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: honeydew;
+    border-top: 4px;
+    border-style: solid;
+    border-color: honeydew;
+    border-top-color: #4CAF50;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+
+    .home,
+    .student,
+    .faculty,
+    .warden {
+        max-width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .home,
+    .student,
+    .faculty,
+    .warden {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .home,
+    .student,
+    .faculty,
+    .warden {
+        margin-top: 10px;
+    }
+}
